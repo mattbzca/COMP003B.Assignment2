@@ -30,6 +30,8 @@ namespace COMP003B.Assignment2
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
+            app.UseWelcomePage("/Welcome");
+
             app.Run();
         }
     }
